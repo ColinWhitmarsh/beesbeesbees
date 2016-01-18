@@ -1,8 +1,7 @@
 var Grub = function() {
-  var newGrub = {};
-  newGrub.age = 0;
-  newGrub.color = 'pink';
-  newGrub.food = 'jelly';
-  return newGrub;
+  this.age = 0;
+  this.color = 'pink';
+  this.food = 'jelly';
 };
 
+Grub.prototype.eat = function() {};
